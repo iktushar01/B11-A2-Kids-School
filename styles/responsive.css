@@ -1,0 +1,20 @@
+@media screen and (max-width: 576px) {
+    .navbar-logo-text,
+    .navbar-menu,
+    .navbar-btn-div
+    {
+        display: none;
+    }
+    .navbar-threeline-icon-div{
+        display: block;   
+        padding: 0 16px 0 0;   
+    }
+    .navbar-logo{
+        padding: 0 0 0 16px;
+        
+    }
+    .navbar-underline{
+        display: block;
+    }
+    
+}
