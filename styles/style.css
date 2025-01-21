@@ -1,188 +1,183 @@
 /* global style */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: Quicksand;
+body {
+  font-family: Quicksand;
 }
-::selection{
-    background: rgb(254, 163, 1);
-    color: rgb(255, 255, 255);
+::selection {
+  background: rgb(254, 163, 1);
+  color: rgb(255, 255, 255);
 }
 
 /* shared style */
-.container{
-    max-width: 1160px;
-    margin: 0 auto;
-    
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
 }
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-
 
 /* header style */
 
-.navbar-container{
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0;  
+.navbar-container {
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
 /* navbar logo section style */
-.navbar-logo-div{
-    align-items: center;
-    gap: 16px;
+.navbar-logo-div {
+  align-items: center;
+  gap: 16px;
 }
-.navbar-logo-text{
-    font-size: 2rem;
-    font-weight: 700;
+.navbar-logo-text {
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 /* navbar menu section style */
-.navbar-list{
-    gap: 32px;
+.navbar-list {
+  gap: 32px;
 }
-.navbar-list-item{
-    list-style: none;
+.navbar-list-item {
+  list-style: none;
 }
-.navbar-list-link{
-    text-decoration: none;
-    font-size: 1.25rem;
-    font-weight: 500;
-}
-
-.navbar-list-link1{
-    color: rgb(254, 163, 1);
-    transition: color 0.3s ease-in-out;
-}
-.navbar-list-link2{
-    color: rgb(1, 172, 253);
-    transition: color 0.3s ease-in-out;
-}
-.navbar-list-link3{
-    color: rgb(5, 212, 223);
-    transition: color 0.3s ease-in-out;
-}
-.navbar-list-link4{
-    color: rgb(93, 88, 239);
-    transition: color 0.3s ease-in-out;
+.navbar-list-link {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
-.navbar-list-link1:hover{
-    color: rgb(0, 0, 0);
+.navbar-list-link1 {
+  color: rgb(254, 163, 1);
+  transition: color 0.3s ease-in-out;
 }
-.navbar-list-link2:hover{
-    color: rgb(0, 0, 0);
-    
+.navbar-list-link2 {
+  color: rgb(1, 172, 253);
+  transition: color 0.3s ease-in-out;
 }
-.navbar-list-link3:hover{
-    color: rgb(0, 0, 0);
+.navbar-list-link3 {
+  color: rgb(5, 212, 223);
+  transition: color 0.3s ease-in-out;
 }
-.navbar-list-link4:hover{
-    
-    color: rgb(0, 0, 0);
+.navbar-list-link4 {
+  color: rgb(93, 88, 239);
+  transition: color 0.3s ease-in-out;
 }
-.navbar-list-link1:active{
-    color: rgb(255, 0, 0);
+
+.navbar-list-link1:hover {
+  color: rgb(0, 0, 0);
 }
-.navbar-list-link2:active{
-    color: rgb(255, 0, 0);
+.navbar-list-link2:hover {
+  color: rgb(0, 0, 0);
 }
-.navbar-list-link3:active{
-    color: rgb(255, 0, 0);
+.navbar-list-link3:hover {
+  color: rgb(0, 0, 0);
 }
-.navbar-list-link4:active{
-    color: rgb(255, 0, 0);
+.navbar-list-link4:hover {
+  color: rgb(0, 0, 0);
+}
+.navbar-list-link1:active {
+  color: rgb(255, 0, 0);
+}
+.navbar-list-link2:active {
+  color: rgb(255, 0, 0);
+}
+.navbar-list-link3:active {
+  color: rgb(255, 0, 0);
+}
+.navbar-list-link4:active {
+  color: rgb(255, 0, 0);
 }
 
 /* navbar button section style */
-.navbar-btn{
-    font-family: Quicksand;
-    border-radius: 12px;
-    font-size: 1.25rem;
-    font-weight: 600;
-    border: none;
-    color: rgb(255, 255, 255);
-    padding: 10px 60px;
-    background: rgb(254, 163, 1);
-    cursor: pointer;
-    transition: background 0.3s ease-in-out;
+.navbar-btn {
+  font-family: Quicksand;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 60px;
+  background: rgb(254, 163, 1);
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
 }
-.navbar-btn:hover{
-    background: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
+.navbar-btn:hover {
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
-.navbar-btn:active{
-    background: rgb(255, 255, 0);
-    color: rgb(0, 0, 0);
+.navbar-btn:active {
+  background: rgb(255, 255, 0);
+  color: rgb(0, 0, 0);
 }
 
 /* navbar threeline style */
-.navbar-threeline-icon-div{
-   display: none;
+.navbar-threeline-icon-div {
+  display: none;
 }
-.navbar-threeline-icon{
-    width: 30px;
-    height: 30px;
+.navbar-threeline-icon {
+  width: 30px;
+  height: 30px;
 }
 /* navbar underline style */
-.navbar-underline{
-    display: none;
-    border: 0.5px solid rgb(254, 163, 1);
+.navbar-underline {
+  display: none;
+  border: 0.5px solid rgb(254, 163, 1);
 }
 
 /* banner section style start */
-.banner-section{
-    align-items: center;
-    gap: 50px;
+.banner-section {
+  align-items: center;
+  gap: 50px;
 }
 
-.banner-content-title{
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: 24px;
+.banner-content-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
 }
-.span1{
-    color: rgb(254, 163, 1);
+.span1 {
+  color: rgb(254, 163, 1);
 }
-.span2{
-    color: rgb(17, 17, 17);
+.span2 {
+  color: rgb(17, 17, 17);
 }
-.span3{
-    color: rgb(1, 172, 253);
+.span3 {
+  color: rgb(1, 172, 253);
 }
-.banner-content-text{
-    color: rgb(17, 17, 17);
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin-bottom: 24px;
-}
-
-.banner-content-btn{
-    font-family: Quicksand;
-    padding: 10px 47px;
-    border-radius: 12px;
-    background: rgb(17, 17, 17);
-    color: rgb(255, 255, 255);
-    border: none;
-    font-weight: 700;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+.banner-content-text {
+  color: rgb(17, 17, 17);
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 24px;
 }
 
-.banner-content-btn:hover{
-    background-color:  rgb(254, 163, 1);
+.banner-content-btn {
+  font-family: Quicksand;
+  padding: 10px 47px;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.banner-content-btn:active{
-    background: rgb(255, 255, 0);
-    color: rgb(0, 0, 0);
+.banner-content-btn:hover {
+  background-color: rgb(254, 163, 1);
 }
 
+.banner-content-btn:active {
+  background: rgb(255, 255, 0);
+  color: rgb(0, 0, 0);
+}
 
 /* .banner-content-img{
     max-width: 100%;
