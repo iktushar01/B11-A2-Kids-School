@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-    /* navbar section responsive start*/
+    /* navbar section responsive start for small devices*/
     .navbar-logo-text,
     .navbar-menu,
     .navbar-btn-div
@@ -16,14 +16,46 @@
     .navbar-underline{
         display: block;
     }
-    /* navbar section responsive end */
+    /* navbar section responsive end for small devices */
+    /* banner section responsive start for small devices*/
+    .banner-section{
+        flex-direction: column-reverse;  
+        gap: 20px;  
+    }
+    .banner-content-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .banner-content{
+        padding: 0 10px;
+    }
+    .banner-content-title{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 18px;
+        
+    }
+    .banner-content-text{
+        font-size: .8rem;
+        text-align: center;
+        font-weight: 500;
+    }
+    .banner-content-btn-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+    /* banner section responsive end for small devices */
 }
 
 
 
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    /* navbar section responsive start*/
+    /* navbar section responsive start for medium devices*/
     .navbar-logo-text,
     .navbar-btn-div
     {
@@ -39,6 +71,6 @@
     .navbar-underline{
         display: block;
     }
-    /* navbar section responsive end */
+    /* navbar section responsive end for medium devices*/
 
 }
