@@ -1,4 +1,5 @@
 @media screen and (max-width: 576px) {
+    /* navbar section responsive start*/
     .navbar-logo-text,
     .navbar-menu,
     .navbar-btn-div
@@ -11,10 +12,9 @@
     }
     .navbar-logo{
         padding: 0 0 0 16px;
-        
     }
     .navbar-underline{
         display: block;
     }
-    
+    /* navbar section responsive end */
 }
