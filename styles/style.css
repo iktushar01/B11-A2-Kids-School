@@ -32,7 +32,8 @@ body {
 .navbar-container {
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 5px 0;
+
 }
 
 /* navbar logo section style */
@@ -140,7 +141,6 @@ body {
 .banner-section {
   align-items: center;
   gap: 50px;
-  margin-bottom: 60px;
 }
 
 .banner-content-title {
@@ -189,7 +189,18 @@ body {
 
 /* curriculum section style start */
 .curriculum-section{
+  
+
     margin-bottom: 80px;
+    background-image: url("../assets/bg.png");
+  
+    background-position: -190px 20px;
+    background-repeat: no-repeat;
+    
+}
+
+.curriculum-section-title{
+  padding: 60px 0 0 0;
 }
 .curriculum-content {
   justify-content: space-between;
@@ -198,6 +209,7 @@ body {
 }
 
 .curriculum-content-box {
+  
   display: flex;
   flex-direction: column;
   align-items: center;

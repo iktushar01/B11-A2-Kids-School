@@ -21,6 +21,9 @@
     flex-direction: column-reverse;
     gap: 20px;
   }
+  .banner-section{
+    margin-bottom: 0px;
+  }
   .banner-content-img {
     width: 100%;
     margin-top: 20px;
@@ -47,6 +50,27 @@
     margin-bottom: 20px;
   }
   /* banner section responsive end for small devices */
+
+  .curriculum-content{
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 30px;
+  }
+
+  .curriculum-content-box{
+    padding: 36px 28px;
+  }
+
+  .primary-heading{
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  .curriculum-arrow-div{
+    display: none;
+  }
+  .curriculum-section-title{
+    padding: 0 0 0 0;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -73,4 +97,13 @@
   .banner-content-text {
     text-align: center;
   }
+  .curriculum-content{
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 30px;
+  }
+  .curriculum-arrow-div{
+    display: none;
+  }
+  
 }
