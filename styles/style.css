@@ -131,3 +131,51 @@ body{
     display: none;
     border: 0.5px solid rgb(254, 163, 1);
 }
+
+/* banner section style start */
+.banner-section{
+    align-items: center;
+    gap: 50px;
+}
+
+.banner-content-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.span1{
+    color: rgb(254, 163, 1);
+}
+.span2{
+    color: rgb(17, 17, 17);
+}
+.span3{
+    color: rgb(1, 172, 253);
+}
+.banner-content-text{
+    color: rgb(17, 17, 17);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.banner-content-btn{
+    font-family: Quicksand;
+    padding: 10px 47px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.banner-content-btn:hover{
+    background-color:  rgb(254, 163, 1);
+}
+
+.banner-content-btn:active{
+    background: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
+}
