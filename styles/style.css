@@ -166,7 +166,7 @@ body {
 
 .banner-content-btn {
   font-family: Quicksand;
-  padding: 10px 47px;
+  padding: 14px 47px;
   border-radius: 12px;
   background: rgb(17, 17, 17);
   color: rgb(255, 255, 255);
@@ -186,6 +186,40 @@ body {
 }
 
 /* banner section style end */
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background-color: rgb(254, 163, 1);
+  padding: 10px 0;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.marquee-text {
+  display: inline-block;
+  animation: scroll-left 10s linear infinite;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+  margin-right: 40px;
+}
+
+@keyframes scroll-left {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+.marquee-text-wrapper {
+  display: inline-flex;
+}
+
 
 /* curriculum section style start */
 .curriculum-section{
@@ -310,6 +344,11 @@ body {
 .curriculum-arrow-img{
     width: 60px;
     height: 60px;
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.curriculum-arrow-img:hover{
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* curriculum section style end */
@@ -505,9 +544,14 @@ body {
   }
   .about-list{
     margin-bottom: 20px;
+  }
+  .about-list a{
+    
     font-size: 1.25rem;
     color: rgb(255, 255, 255);
     font-weight: 500;
+    text-decoration: none;
+
   }
 
   .footer-touch-title{
@@ -515,6 +559,7 @@ body {
     font-weight: 700;
     color: rgb(255, 255, 255);
     margin-bottom: 32px;
+    
   }
 
   .footer-social-icon{

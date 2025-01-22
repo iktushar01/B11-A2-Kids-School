@@ -140,7 +140,15 @@
   .about-list{
     font-size: 1rem;
   }
-
+  .marquee-text{
+    font-size: 0.8rem;
+  }
+  .marquee-container{
+    margin-top: -2px;
+  }
+  .curriculum-section-title {
+    margin-top: 30px;
+  }
 }
 
 
