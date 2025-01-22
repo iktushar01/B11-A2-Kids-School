@@ -209,7 +209,7 @@ body {
 }
 
 .curriculum-content-box {
-  
+  width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -326,13 +326,14 @@ body {
 }
 .big-story-card{
   width: 540px;
-  height: auto;
+  height: 630px;
   background: rgb(255, 255, 255);
   border-radius: 16px;
 }
 .story-card-container{
   padding-bottom: 80px;
   gap: 20px;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -383,7 +384,7 @@ body {
 }
 
 .small-card{
-  max-width: 260px;
+  max-width: 290px;
   height: auto;
   background: rgb(255, 255, 255);
   border-radius: 16px;
@@ -430,9 +431,92 @@ body {
   border-radius: 12px;
   color: rgb(255, 255, 255);
   background: rgb(17, 17, 17);
+  border: none;
+  transition: background-color 0.3s ease-in-out;
   
 }
   .story-view-btn-div{
     text-align: center;
     padding-bottom: 60px;
+  }
+
+  .story-view-btn:hover {
+    background-color: rgb(254, 163, 1);
+  }
+  
+  .story-view-btn:active {
+    background: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
+  }
+  
+  /* story section style end */
+
+  /* footer style start */
+
+  .footer-section{
+    background: rgb(1, 172, 253);
+  }
+
+  .footer-container{
+    padding: 120px 0;
+    justify-content: space-between;
+
+  }
+  .footer-content{
+    max-width: 33.33%;
+  }
+  .footer-about-title{
+    font-size: 1.2px;
+    font-weight: 600;
+
+  }
+  .footer-touch-title{
+    font-size: 1.2px;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+
+  .footer-content-logo{
+    width: 80px;
+  }
+
+  .footer-content-logo-text{
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer-content-text{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-top: 35px;
+  }
+
+  .footer-about-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer-about-list{
+    list-style: none;
+    margin-top: 32px;
+  }
+  .about-list{
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+  }
+
+  .footer-touch-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 32px;
+  }
+
+  .footer-social-icon{
+    margin-right: 10px;
   }
