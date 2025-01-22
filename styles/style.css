@@ -276,16 +276,27 @@ body {
 .curriculum-content-box-more {
   font-size: 1.25rem;
   font-weight: 700;
-  color: rgb(100, 200, 255);
   text-decoration: none;
   transition: color 0.3s ease-in-out;
+}
+
+.readmore1{
+  color: rgb(100, 200, 255);
 }
 .readmore2{
   color: rgb(240, 170, 0);
 }
-
 .readmore3{
   color: rgb(135, 0, 255); 
+}
+.readmore1:hover{
+  color: rgb(0, 0, 0);
+}
+.readmore2:hover{
+  color: rgb(0, 0, 0);
+}
+.readmore3:hover{
+  color: rgb(0, 0, 0); 
 }
 
 .curriculum-arrow-div{
