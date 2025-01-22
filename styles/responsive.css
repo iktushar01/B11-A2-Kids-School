@@ -71,7 +71,29 @@
   .curriculum-section-title{
     padding: 0 0 0 0;
   }
+  .curriculum-content-box-title{
+    font-size: 1.2rem;
+    margin-bottom: 22px;
+  }
+  .curriculum-content-box-description{
+    font-size: 0.8rem;
+    margin-bottom: 18px;
+  }
+  .curriculum-content-box-more{
+    font-size: 0.8rem;
+    margin: 0px;
+  }
 }
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /* navbar section responsive start for medium devices*/

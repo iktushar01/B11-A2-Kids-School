@@ -252,6 +252,7 @@ body {
 }
 .curriculum-content-box-img {
   margin-bottom: 32px;
+  max-width: 100%;
 }
 
 .curriculum-content-box-title {
@@ -262,6 +263,7 @@ body {
 }
 
 .curriculum-content-box-description {
+  font-family: Raleway;
   text-align: center;
   font-size: 1.25rem;
   font-weight: 500;
@@ -278,7 +280,13 @@ body {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
+.readmore2{
+  color: rgb(240, 170, 0);
+}
 
+.readmore3{
+  color: rgb(135, 0, 255); 
+}
 
 .curriculum-arrow-div{
     display: flex;
