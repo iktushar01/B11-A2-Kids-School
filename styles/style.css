@@ -383,7 +383,8 @@ body {
 }
 
 .small-card{
-  width: 260px;
+  max-width: 260px;
+  height: auto;
   background: rgb(255, 255, 255);
   border-radius: 16px;
 }
@@ -417,3 +418,21 @@ body {
   padding-left: 38px;  
   padding-right: 38px;         
 }
+
+.small-card-hide{
+  display: none;
+}
+
+.story-view-btn{
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  padding: 10px 60px;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+  background: rgb(17, 17, 17);
+  
+}
+  .story-view-btn-div{
+    text-align: center;
+    padding-bottom: 60px;
+  }

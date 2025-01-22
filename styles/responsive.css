@@ -86,6 +86,39 @@
     margin: 0px;
   }
   /* curriculum section responsive end for small devices */
+  /* story section responsive start for small devices */
+  .big-story-card{
+    display: none;
+  }
+  .small-card-container{
+    padding: 0 16px;
+  }
+  .small-card-btn-div{
+    margin-left: 20px;
+    margin-top: -22px;
+  }
+  .small-card-btn{
+    padding: 10px 12px;
+    font-size: 0.7rem;
+  }
+  .small-card-title{
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    padding-left: 20px;  
+    padding-right: 20px;    
+  }
+  .small-card-hide{
+    display: block;
+  }
+  .story-view-btn-div{
+    padding-bottom: 40px;
+  }
+  .story-view-btn{
+    border-radius: 20px;
+  }
+  .story-card-container{
+    margin-bottom: -30px;
+  }
 }
 
 
@@ -134,5 +167,11 @@
     display: none;
   }
   /* curriculum section responsive end for mid devices */
-  
+  /* story section responsive start for mid devices */
+  .story-card-container{
+    flex-direction: column;
+  }
+  .small-card-hide{
+    display: block;
+  }
 }
