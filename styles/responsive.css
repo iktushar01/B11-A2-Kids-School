@@ -185,6 +185,10 @@
     gap: 20px;
     padding: 0 30px;
   }
+  .curriculum-content-box{
+    padding: 36px 28px;
+    width: 100%;
+  }
   .curriculum-arrow-div{
     display: none;
   }
@@ -192,8 +196,16 @@
   /* story section responsive start for mid devices */
   .story-card-container{
     flex-direction: column;
+    
   }
   .small-card-hide{
     display: block;
   }
+  .footer-container{
+    padding: 20px 20px;
+  }
+  .banner-content-text{
+    padding: 0 20px;
+  }
+
 }
