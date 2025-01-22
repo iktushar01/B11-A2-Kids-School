@@ -311,3 +311,109 @@ body {
     width: 60px;
     height: 60px;
 }
+
+/* curriculum section style end */
+
+/* story section style start */
+
+.story-section{
+  background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%), url(../assets/bg.png);
+  background-position: 0px 0px, 0px 0px, -190px 20px;
+
+}
+.curriculum-section-title{
+  margin-top: -30px;
+}
+.big-story-card{
+  width: 540px;
+  height: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 16px;
+}
+.story-card-container{
+  padding-bottom: 80px;
+  gap: 20px;
+  align-items: center;
+}
+
+.small-card-container{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.big-story-card-img{
+  max-width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  background: url(),rgb(217, 217, 217);
+}
+
+.big-story-card-btn{
+  font-family: Raleway;
+  font-size: 0.8rem;
+  padding: 15px 18px;
+  border-radius: 47.93px;
+  background: rgb(60, 216, 232);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-weight: 500;
+}
+
+.big-story-card-btn-div{
+  margin-left: 38px;
+  margin-top: -28px;
+}
+
+.big-story-card-title{
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 35px;
+  padding-left: 38px;           
+}
+
+.big-story-card-description{
+  font-family: Raleway;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0 38px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  line-height: 28.76px;
+}
+
+.small-card{
+  width: 260px;
+  background: rgb(255, 255, 255);
+  border-radius: 16px;
+}
+
+.small-card-btn{
+  font-family: Raleway;
+  font-size: 0.8rem;
+  padding: 10px 18px;
+  border-radius: 47.93px;
+  background: rgb(149, 178, 38);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-weight: 500;
+}
+.small-card-img{
+  max-width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  background: url(),rgb(217, 217, 217);
+}
+
+.small-card-btn-div{
+  margin-left: 38px;
+  margin-top: -22px;
+}
+
+.small-card-title{
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 35px;
+  padding-left: 38px;  
+  padding-right: 38px;         
+}

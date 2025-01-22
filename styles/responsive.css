@@ -50,6 +50,7 @@
     margin-bottom: 20px;
   }
   /* banner section responsive end for small devices */
+  /* curriculum section responsive start for small devices */
 
   .curriculum-content{
     flex-direction: column;
@@ -84,13 +85,14 @@
     font-size: 0.8rem;
     margin: 0px;
   }
+  /* curriculum section responsive end for small devices */
 }
 
 
 
 
 
-
+/* .................................................... */
 
 
 
@@ -113,6 +115,7 @@
     display: block;
   }
   /* navbar section responsive end for medium devices*/
+  /* banner section responsive start for mid devices */
   .banner-section {
     flex-direction: column-reverse;
     gap: 20px;
@@ -120,6 +123,8 @@
   .banner-content-text {
     text-align: center;
   }
+  /* banner section responsive end for mid devices */
+  /* curriculum section responsive start for mid devices */
   .curriculum-content{
     flex-direction: column;
     gap: 20px;
@@ -128,5 +133,6 @@
   .curriculum-arrow-div{
     display: none;
   }
+  /* curriculum section responsive end for mid devices */
   
 }
